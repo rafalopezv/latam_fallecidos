@@ -108,7 +108,7 @@ temp %>%
     )
   ) %>%
   hc_tooltip(table = T, shared = T, sort = T, outside = T, borderWidth = 0.01, 
-             style = list(fontFamily = "IBM Plex Mono")) %>%
+             style = list(fontFamily = "Open Sans")) %>%
   hc_xAxis(title = list(text = NULL)) %>%
   hc_yAxis(title = list(text = "Casos acumulados por millón de habitantes")) %>%
   hc_chart(style = list(fontFamily = "Open Sans")) %>%
@@ -174,7 +174,7 @@ temp %>%
     )
   ) %>%
   hc_tooltip(table = T, shared = T, sort = T, outside = T, borderWidth = 0.01, 
-             style = list(fontFamily = "IBM Plex Mono")) %>%
+             style = list(fontFamily = "Open Sans")) %>%
   hc_xAxis(title = list(text = NULL)) %>%
   hc_yAxis(title = list(text = "Fallecidos por millón de habitantes")) %>%
   hc_chart(style = list(fontFamily = "Open Sans")) %>%

@@ -19,8 +19,8 @@ source("code/graficos_latam.R")
 Sys.setlocale(locale = "es_ES.UTF-8")
 ```
 
-<h2 style = color: #e61b72;>
-    Fallecidos <span style = "color: #000000">por país y por millón de habitates</span>  
+<h2 <span style = "color: #e61b72">
+    Fallecidos</span> <span style = "color: #000000">por país y por millón de habitates</span>  
 </h2>
 
 <h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte derecha, los países que quiera comparar.</h4>
@@ -43,8 +43,8 @@ incidencia_fallecidos
 <br>
 <br>
 
-<h2 style = color: #e61b72;>
-    Fallecidos <span style = "color: #000000">acumulados por día desde el fallecido '0' en cada país</span> 
+<h2 <span style = "color: #e61b72">
+    Fallecidos</span> <span style = "color: #000000">acumulados por día desde el fallecido '0' en cada país</span> 
 </h2>
 
 <center><h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte de abajo, los países que quiera comparar.El ancho de cada color determina la proporción de ese país sobre el total</h4></center>
