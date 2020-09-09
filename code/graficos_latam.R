@@ -81,7 +81,7 @@ temp %>%
   ggplot(aes(semana, incidencia, fill = continente)) + 
   geom_col(color = NA, alpha = 0.9, fill = "#CB1724") + 
   facet_wrap(vars(fct_reorder(titulo, num, .desc = T)), scales = "free", ncol = 4) +
-  hrbrthemes::theme_ipsum_rc(grid = F, base_family = "Source Code Pro Medium", strip_text_size = 15) +
+  hrbrthemes::theme_ipsum_rc(grid = F, base_family = "Open Sans Medium", strip_text_size = 15) +
   theme(
     axis.text.x = element_blank(),
     axis.text.y = element_blank(),
@@ -111,7 +111,7 @@ temp %>%
              style = list(fontFamily = "IBM Plex Mono")) %>%
   hc_xAxis(title = list(text = NULL)) %>%
   hc_yAxis(title = list(text = "Casos acumulados por millón de habitantes")) %>%
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>%
+  hc_chart(style = list(fontFamily = "Open Sans")) %>%
   hc_colors(colors = colores) %>%
   hc_legend(layout = "proximate", align = "right") %>%
   hc_plotOptions(line = list(
@@ -177,7 +177,7 @@ temp %>%
              style = list(fontFamily = "IBM Plex Mono")) %>%
   hc_xAxis(title = list(text = NULL)) %>%
   hc_yAxis(title = list(text = "Fallecidos por millón de habitantes")) %>%
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>%
+  hc_chart(style = list(fontFamily = "Open Sans")) %>%
   hc_colors(colors = colores) %>%
   hc_legend(layout = "proximate", align = "right") %>%
   hc_plotOptions(line = list(
@@ -210,7 +210,7 @@ temp %>%
   ggplot(aes(semana, incidencia, fill = continente)) + 
   geom_col(color = NA, alpha = 0.9, fill = "#09283C") + 
   facet_wrap(vars(fct_reorder(titulo, num, .desc = T)), scales = "free", ncol = 4) +
-  hrbrthemes::theme_ipsum_rc(grid = F, base_family = "Source Code Pro Medium", strip_text_size = 15) +
+  hrbrthemes::theme_ipsum_rc(grid = F, base_family = "Open Sans Medium", strip_text_size = 15) +
   theme(
     axis.text.x = element_blank(),
     axis.text.y = element_blank(),
@@ -271,10 +271,10 @@ hchart(temp, "streamgraph", hcaes(fecha, casos_acumulados, group = pais_nombre_c
        )
      ) %>% 
   hc_tooltip(shared = T, table = T, sort = T, borderWidth = 0.01, 
-             style = list(fontFamily = "Source Code Pro")) %>% 
+             style = list(fontFamily = "Open Sans")) %>% 
   hc_yAxis(visible = F) %>% 
   hc_xAxis(title = list(text = "")) %>% 
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>% 
+  hc_chart(style = list(fontFamily = "Open Sans")) %>% 
   hc_plotOptions(
     series = list(
       marker = list(radius = 3, enabled = FALSE, symbol = "circle"),
@@ -303,10 +303,10 @@ hchart(temp, "streamgraph", hcaes(fecha, incidencia, group = pais_nombre_corto),
        )
 ) %>% 
   hc_tooltip(shared = T, table = T, sort = T, outside = T, borderWidth = 0.01,
-             style = list(fontFamily = "Source Code Pro")) %>% 
+             style = list(fontFamily = "Open Sans")) %>% 
   hc_yAxis(visible = F) %>% 
   hc_xAxis(title = list(text = "")) %>% 
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>% 
+  hc_chart(style = list(fontFamily = "Open Sans")) %>% 
   hc_plotOptions(
     series = list(
       marker = list(radius = 3, enabled = FALSE, symbol = "circle"),
@@ -368,10 +368,10 @@ hchart(temp, "streamgraph", hcaes(fecha, casos_acumulados, group = pais_nombre_c
        )
 ) %>% 
   hc_tooltip(shared = T, table = T, sort = T, borderWidth = 0.01,
-             style = list(fontFamily = "Source Code Pro")) %>% 
+             style = list(fontFamily = "Open Sans")) %>% 
   hc_yAxis(visible = F) %>% 
   hc_xAxis(title = list(text = "")) %>% 
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>% 
+  hc_chart(style = list(fontFamily = "Open Sans")) %>% 
   hc_plotOptions(
     series = list(
       marker = list(radius = 3, enabled = FALSE, symbol = "circle"),
@@ -401,10 +401,10 @@ hchart(temp, "streamgraph", hcaes(fecha, incidencia, group = pais_nombre_corto),
        )
 ) %>% 
   hc_tooltip(shared = T, table = T, sort = T, outside = T, borderWidth = 0.01,
-             style = list(fontFamily = "Source Code Pro")) %>% 
+             style = list(fontFamily = "Open Sans")) %>% 
   hc_yAxis(visible = F) %>% 
   hc_xAxis(title = list(text = "")) %>% 
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>% 
+  hc_chart(style = list(fontFamily = "Open Sans")) %>% 
   hc_plotOptions(
     series = list(
       marker = list(radius = 3, enabled = FALSE, symbol = "circle"),
@@ -457,7 +457,7 @@ highchart() %>%
                 stemWidth = 3,  whiskerLength = 0) %>% 
   hc_add_series(data = aa, "scatter", hcaes(x = pais_o_region, y = promedio), 
                 color = "#CB1724", name = "Rt", linkedTo = "error") %>% 
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>% 
+  hc_chart(style = list(fontFamily = "Open Sans")) %>% 
   hc_plotOptions(
     scatter = list(
       marker = list(radius = 7, enabled = T, symbol = "circle"),
@@ -480,7 +480,7 @@ highchart() %>%
                                Día de inicio de medición: <b>{point.dia_de_inicio}</b><br>
                                Día de cierre de medición: <b>{point.dia_de_cierre}</b><br>"), 
              headerFormat = "<b>{point.pais_o_region}</b>", 
-             style = list(fontFamily = "Source Code Pro")) -> rt_confirmados 
+             style = list(fontFamily = "Open Sans")) -> rt_confirmados 
   # htmlwidgets::saveWidget(here::here("img/rt_latam_confirmados.html"))
 
 # rt para fallecidos
@@ -515,7 +515,7 @@ highchart() %>%
                 stemWidth = 3,  whiskerLength = 0) %>% 
   hc_add_series(data = aa, "scatter", hcaes(x = pais_o_region, y = promedio), 
                 color = "#09283C", name = "Rt", linkedTo = "error") %>% 
-  hc_chart(style = list(fontFamily = "Source Code Pro")) %>% 
+  hc_chart(style = list(fontFamily = "Open Sans")) %>% 
   hc_plotOptions(
     scatter = list(
       marker = list(radius = 7, enabled = T, symbol = "circle"),
