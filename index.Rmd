@@ -20,18 +20,21 @@ Sys.setlocale(locale = "es_ES.UTF-8")
 ```
 
 <h2 <span style = "color: #e61b72">
-    Fallecidos</span> <span style = "color: #000000">por país y por millón de habitates</span>  
+    <b>Fallecidos</b></span> <span style = "color: #000000">por país y por millón de habitates</span>  
 </h2>
 
 <h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte derecha, los países que quiera comparar.</h4>
 ```{r, include=T, echo = F}
 millon_fallecidos
 ```
+<small><small><small>
+Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+</small></small></small>
 <br>
 <br>
 
 <h2 style = color: #000000;>
-    Nuevos casos de <span style = "color: #e61b72">fallecidos</span> por día desde el fallecido '0' en cada país 
+    Nuevos casos de <span style = "color: #e61b72"><b>fallecidos</b></span> por día desde el fallecido '0' en cada país 
 </h2>
 
 <center><h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte de abajo, los países que quiera comparar.El ancho de cada color determina la proporción de ese país sobre el total</h4></center>
@@ -39,15 +42,20 @@ millon_fallecidos
 ```{r, include=T, echo = F}
 incidencia_fallecidos
 ```
-
+<small><small><small>
+Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+</small></small></small>
 <br>
 <br>
 
 <h2 <span style = "color: #e61b72">
-    Fallecidos</span> <span style = "color: #000000">acumulados por día desde el fallecido '0' en cada país</span> 
+    <b>Fallecidos</b></span> <span style = "color: #000000">acumulados por día desde el fallecido '0' en cada país</span> 
 </h2>
 
 <center><h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte de abajo, los países que quiera comparar.El ancho de cada color determina la proporción de ese país sobre el total</h4></center>
 ```{r, include=T, echo = F}
 rio_fallecidos
 ```
+<small><small><small>
+Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+</small></small></small>
