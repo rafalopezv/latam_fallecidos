@@ -28,7 +28,7 @@ Sys.setlocale(locale = "es_ES.UTF-8")
 millon_fallecidos
 ```
 <small><small><small>
-Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+Elaboración propia con base en los datos de [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
 <br>
 <br>
@@ -43,7 +43,7 @@ Elaboración propia con base en los datos de [Jhons Hopkins University](https://
 incidencia_fallecidos
 ```
 <small><small><small>
-Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+Elaboración propia con base en los datos de [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
 <br>
 <br>
@@ -57,5 +57,5 @@ Elaboración propia con base en los datos de [Jhons Hopkins University](https://
 rio_fallecidos
 ```
 <small><small><small>
-Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+Elaboración propia con base en los datos de [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
